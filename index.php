@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
             html {
-                background: url(../img/background.png) no-repeat center center fixed;
+                background: url('http://www.downloadgimp.net/wp-content/uploads/2012/03/skies.jpg') no-repeat center center fixed;
                 -webkit-background-size: cover;
                 -moz-background-size: cover;
                 -o-background-size: cover;
