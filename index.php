@@ -18,7 +18,7 @@
             var channel = pusher.subscribe('sk-image-display');
 
             channel.bind('display', function(data) {
-                console.log('An event was triggered with message: ' + data.message);
+                console.log(data);
             });
 
         </script>
