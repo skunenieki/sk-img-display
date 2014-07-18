@@ -3,13 +3,20 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>SK</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            html {
+                background: url(../img/background.png) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+        </style>
     </head>
     <body>
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
         <script src="//js.pusher.com/2.2/pusher.min.js"></script>
@@ -19,7 +26,7 @@
 
             channel.bind('display', function(data) {
                 console.log(data);
-                $('body').html('<img src="'+data.url+'">');
+                $('html').css('background-image','url("'+data.url+'")');
             });
 
         </script>
