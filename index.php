@@ -19,6 +19,7 @@
 
             channel.bind('display', function(data) {
                 console.log(data);
+                $('body').html('<img src="'+data.url+'">');
             });
 
         </script>
