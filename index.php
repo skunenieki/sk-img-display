@@ -6,8 +6,6 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <script src="js/vendor/modernizr-2.8.0.min.js"></script>
     </head>
     <body>
         <p>Hello world! This is HTML5 Boilerplate.</p>
