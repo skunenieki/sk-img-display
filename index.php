@@ -39,8 +39,8 @@
             font-family: Verdana;
             padding: 10px;
         ">
-            <img class="twlogo" rc="https://g.twimg.com/Twitter_logo_white.png" style="height: 30px; margin-right: 5px;">
-            <img class="iglogo" src="https://g.twimg.com/Twitter_logo_white.png" style="height: 40px; margin-right: 5px; display:none;">
+            <img class="twlogo" src="https://g.twimg.com/Twitter_logo_white.png" style="height: 30px; margin-right: 5px;">
+            <img class="iglogo" src="https://fbcdn-dragon-a.akamaihd.net/hphotos-ak-xpa1/t39.2365-6/851582_417171855069447_55288290_n.png" style="height: 40px; margin-right: 5px; display:none;">
             <div class="username" style="display: inline;">skunenieki</div>
         </div>
 
@@ -53,7 +53,7 @@
 
             channel.bind('display', function(data) {
                 console.log(data);
-                $('html').css('background-image','#000 url("'+data.url+'") no-repeat center center fixed');
+                $('html').css('background','#000 url("'+data.url+'") no-repeat center center fixed');
                 $('.username').text(data.username);
                 if (data.source == 'twitter') {
                     $('.iglogo').hide();
