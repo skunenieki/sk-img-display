@@ -8,6 +8,7 @@
         <style>
             html {
                 background: #000 url('http://www.downloadgimp.net/wp-content/uploads/2012/03/skies.jpg') no-repeat center center fixed;
+                overflow: hidden;
             }
         </style>
     </head>
