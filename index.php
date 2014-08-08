@@ -55,7 +55,7 @@
 
             channel.bind('display', function(data) {
                 console.log(data);
-                $('html').css('background','#000 url("'+data.url+'") no-repeat center center fixed');
+                $('html').css('background-image','url("'+data.url+'")');
                 $('.username').text(data.author);
                 if (data.source == 'twitter') {
                     $('.iglogo').hide();
