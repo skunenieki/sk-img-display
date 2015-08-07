@@ -26,7 +26,7 @@
             font-family: Verdana;
             padding: 10px;
         ">
-            Sūti foto ar #skunenieki uz twitter vai instagram.
+            Sūti foto ar #skunenieki uz Twitter vai Instagram!
         </div>
 
         <div class="apaksa" style="
